@@ -39,7 +39,7 @@ No reason to reinvent the wheel here, the [Terraform Getting Started Guide](http
 
 They'll lead you through some really basic examples and introduce you to most of the main concepts. You'll create and destroy some basic `resources` like EC2 instances, learn about `resource dependencies`, `provisioners`, `variables`, `modules`, etc.
 
-I don't recommend actually running the `Remote Backends` tutorial and simply reading through it, because there isn't much to be gained by spinning up a whole Consul cluster for a tutorial. Reading up on the concepts is definitely worth it.
+I don't recommend actually running the `Remote Backends` tutorial, simply reading through it should be sufficient because there isn't much to be gained by spinning up a whole Consul cluster. Reading up on the concepts is definitely worth it.
 
 As I mentioned above, these tutorials assume you've already got the [Default VPC](https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/default-vpc.html) that comes with a brand new AWS account setup. The Default VPC creates a lot of the basic boilerplate that every sane AWS setup should have, so it makes the examples in the tutorials easier to play with. However, it glosses over some key concepts in the process that are fun to learn about and build *while using Terraform*, which is what the "homework" in part 3 is all about :).
 
