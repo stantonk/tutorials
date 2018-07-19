@@ -2,4 +2,4 @@
 
 A collection of tutorials on various technologies.
 
-* [Terraform](./tf/README.md)
+* [Terraform](./tf/)
